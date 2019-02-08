@@ -1,0 +1,15 @@
+{
+    "name": "acer/myviettel_proxy",
+    "authors": [
+        {
+            "name": "T-Rekt",
+            "email": "t.to.the.rekt@gmail.com"
+        }
+    ],
+    "require": {
+        "rmccue/requests": "^1.7"
+    },
+    "scripts": {
+      "start": "php -S 0.0.0.0:8080 -t public index.php"
+    }
+}
