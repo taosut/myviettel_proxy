@@ -10,6 +10,6 @@
         "rmccue/requests": "^1.7"
     },
     "scripts": {
-      "start": "php -S 0.0.0.0:8080 -t public index.php"
+      "start": "php -S 0.0.0.0:8080 index.php"
     }
 }
