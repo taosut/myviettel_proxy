@@ -103,4 +103,6 @@
         echo pay($phone, $captcha, $cardcode, $sid, $token);
       } else die();
     }
+  } else {
+    echo file_get_contents('https://api.ipify.org');
   }
